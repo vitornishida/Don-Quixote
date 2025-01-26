@@ -59,6 +59,7 @@ section > img {
     border: solid black ;
 }
 
+
 img.manager {
     float: left;
     margin-left: 100px;
@@ -100,7 +101,8 @@ a.cleanup {
 }
 
 img.staff {
-    transform: translate(173%);
+    float: right;
+    margin-right: 140px;
 }
 a.staff {
     margin-right: 84px;
@@ -115,10 +117,10 @@ a:hover {
     background-color: rgba(117, 101, 101, 0.425);
     text-decoration: underline;
 }
-img:hover {
+manager,middle:hover {
     transition-duration: 0.5s;
-    border-radius: 5px;
-    background-color: rgba(117, 101, 101, 0.425);
+    border-radius: 10px;
+    
     padding: 0px 0px 5px 0px;
     
 }
@@ -127,8 +129,8 @@ img:hover {
     display: flex;
     align-items: center; 
     justify-content: space-between;
-    margin: 0;
-    padding: 0px 0px 20px 0px;
+    margin: 0px 0px;
+    padding: 10px 0px 20px 0px;
     position: relative;
     font-size: 20px;
 }
