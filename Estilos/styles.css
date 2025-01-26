@@ -70,19 +70,43 @@ a.manager {
 }
 
 img.cinq {
-    float: right;
-    margin-right: 140px;
+    
 }
 a.cinq {
     margin-right: 40px;
     text-decoration: none;
     color: black;
 }
+img.middle {
+    float: right;
+    margin-right: 140px;
+}
 
 a.middle {
     margin-right: 113px;
     text-decoration: none;
     color: black;
+}
+
+img.cleanup {
+    float: left;
+    margin-left: 100px;
+}
+
+a.cleanup {
+    margin-left: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+img.staff {
+    transform: translate(173%);
+}
+a.staff {
+    margin-right: 84px;
+    text-decoration: none;
+    color: black;
+    
 }
 
 a:hover {
