@@ -17,10 +17,11 @@ html, body {
 
 header {
     text-align: center;
-    background-color: #96210f;
+    background-color: #96210fea;
     padding-top: 40px;
     color: #ddce2bcc;
     font-size: larger;
+
 }
 header > h1 {
     padding-bottom: 20px;
@@ -35,9 +36,14 @@ header > p > strong {
 
 main {
     background-color: #C9E7EF;   
-    margin: 0px 50px;
+    margin: 0px 0px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
     line-height: 1.3em;
+    background: black center center no-repeat fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imagens/wallpaper.jpg);
+    background-size: cover;
+    color: white;
+
 }
 
 img#chibi {
@@ -55,28 +61,27 @@ main > h2 {
     padding-bottom: 30px;
 }
 
-section > img {
-    border: solid black ;
+a {
+    color: white;
 }
 
+img {
+    border: solid rgba(255, 255, 255, 0.466) 5px;
+}
 
 img.manager {
     float: left;
     margin-left: 100px;
+
 }
 a.manager {
     margin-left: 40px;
-    text-decoration: none;
-    color: black;   
+    text-decoration: none;   
 }
 
-img.cinq {
-    
-}
 a.cinq {
     margin-right: 40px;
     text-decoration: none;
-    color: black;
 }
 img.middle {
     float: right;
@@ -86,7 +91,6 @@ img.middle {
 a.middle {
     margin-right: 113px;
     text-decoration: none;
-    color: black;
 }
 
 img.cleanup {
@@ -97,7 +101,6 @@ img.cleanup {
 a.cleanup {
     margin-left: 60px;
     text-decoration: none;
-    color: black;
 }
 
 img.staff {
@@ -107,7 +110,6 @@ img.staff {
 a.staff {
     margin-right: 84px;
     text-decoration: none;
-    color: black;
     
 }
 
@@ -117,7 +119,7 @@ a:hover {
     background-color: rgba(117, 101, 101, 0.425);
     text-decoration: underline;
 }
-manager,middle:hover {
+a:hover {
     transition-duration: 0.5s;
     border-radius: 10px;
     
